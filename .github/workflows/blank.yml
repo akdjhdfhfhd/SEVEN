@@ -1,0 +1,40 @@
+from os import getenv
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+que = {}
+
+admins = {}
+
+API_ID = int(getenv("API_ID", "21468057"))
+
+API_HASH = getenv("API_HASH", "f4a868976632fec2260eb7a7f9d88720")
+
+BOT_TOKEN = getenv("BOT_TOKEN", 5679058221:AAEJRP-dQnWEmRotwN6kJKhZJSDuW7GkeCc)
+
+BOT_NAME = getenv("BOT_NAME"," music ")
+
+BOT_USERNAME = getenv("BOT_USERAME", "G_9_6_1bot")
+
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ah_2_v")
+
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "ah_9_v")
+
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "500"))
+
+START_IMG = getenv("START_IMG", "https://telegra.ph/file/a7c76148741ea748762b2.jpg")
+
+PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/a7c76148741ea748762b2.jpg")
+
+SESSION_NAME = getenv("SESSION_NAME", AgCr0SxiTFiLaFpFlnzabJXiR0dM14tLvVfLdBhcwHJfzf7VcjCGXqq57kYpoMQy5AGxzKOF_2Sk_f8t0S880BlP0sXYPKYDhpPlzuxN8m6A3q8ZwhYD7XrY1EbEH6iQzAQJH8G0LtddnZc7BmnUaNs607LVWS6Hd88HhYTdlFbOUzljyvc7eGja0zBlMKMgKMjBDjjYEvuJB0hGejIVwA_Scfe7pPaGGVYs9-1JjGb-kfc6BD_fsi9kEFxLLpl26VrgF2KBG5zvHAYqWBYhfcSHoZtafQ4lCRLfFY2uOhaihf3THbj58-CO65SysdD_5Agisg5Yxmw8bqQh90OG9XAAAAAV32seMA)
+
+COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "").split())
+
+PMPERMIT = getenv("PMPERMIT", "ENABLE")
+
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5871415779").split()))
+
+
+
